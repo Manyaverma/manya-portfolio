@@ -158,4 +158,16 @@ body{
 .align1{
     text-align: center;
 }
+::-webkit-scrollbar {
+    width: 6px;
+    border-left: 1px solid #E6ECF8;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #141c3a;
 
+    border-top-left-radius:1rem;
+    border-bottom-left-radius:1rem ;
+    border-top-right-radius:1rem;
+    border-bottom-right-radius:1rem ;
+
+}

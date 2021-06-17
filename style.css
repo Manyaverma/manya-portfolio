@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+:root{
+    --primay-color:#831843;
+    --dark-gray: #6B7280;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.font{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bolder;
+    font-size: xx-small;
+    text-align: left;
+}
+/**navigation**/
+
+.navigation{
+    background-color: var(--primay-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius:1rem;
+    border-bottom-right-radius: 1rem;
+}
+.navigation.name{
+    font-weight: bold;
+    font-size: 10rem;
+}
+
+.navigation.link{
+    color: white;
+}
+.link-active{
+    font-weight: bold;
+}
+
+.align{
+    text-align: right;
+}
+.font{
+    font-size: 2rem;
+}
+
+/**list**/
+
+.list-inline{
+    display:inline
+}
+.list-nonbullets{
+    list-style: none;
+}
+
+/**link**/
+
+.link{
+    text-decoration: none;
+    box-sizing:border-box;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+.primary{
+    text-decoration: none;
+    color:var(--primay-color);
+    display: block;
+    padding-top: 0.5rem;
+}
+
+/**header**/
+
+.header{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+.img{
+    max-width: 90%;
+    width: 450px;
+    display:block;
+    margin:auto;
+    
+    
+}
+.img2{
+
+ border-radius: 50%;
+      
+}
+.header-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+
+}
+.heading-heading2{
+    color: var(--primay-color);
+}
+
+/**section**/
+
+.section{
+    text-align: center;
+    padding:2rem;
+    background-color:whitesmoke;
+}
+.content{
+    max-width: 600px;
+    margin: auto;
+    padding: 0rem 1rem;
+    font-size: 1rem;
+}
+.section2{
+    text-align: center;
+    padding:2rem;
+    
+}
+
+.footer{
+    background-color: var(--primay-color);
+    color:white;
+    padding: 4rem 1rem;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.footer-heading{
+    font-weight: bold;
+    font-size: large;
+}
+
+.link2{
+    text-decoration: none;
+    box-sizing:border-box;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 1rem;
+    padding-inline-start: 0px;
+}
+
+.text-size{
+    font-size: 1.2rem;
+}
+/**article**/
+.article{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.copyright{
+    font-weight: lighter;
+    bottom: 0;
+    text-align:center;    
+    width: 100%;
+    opacity: 0.7;
+    
+    
+}
+.align1{
+    text-align: center;
+}
+
